@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alok S K | Portfolio</title>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Link External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Peacock Blue Animated Background Glow -->
+    <div class="peacock-bg">
+        <div class="teal-glow glow-1"></div>
+        <div class="teal-glow glow-2"></div>
+    </div>
+
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile-section">
+            <!-- Profile Picture with Simple Clean Border Layout -->
+            <div class="avatar-container">
+    <!-- Ivde src-il images/ ozhivakki direct filename mathram kodukkuka -->
+    <img src="myphoto.jpg" alt="Profile Picture" class="avatar">
+</div>
+            
+            <h1>Alok S K</h1>
+            <p class="subtitle">B.Sc. Computer Science Graduate &bull; Software Developer</p>
+            
+            <p class="tagline">Passionate about building innovative software solutions ✨</p>
+            
+            <div class="location">
+                <i class="fa-solid fa-location-dot location-icon"></i> Lives in <span>Kozhikode, Kerala</span>
+            </div>
+
+            <!-- Peacock Blue Styled Connect Badge -->
+            <div class="connect-badge-wrapper">
+                <div class="connect-badge">
+                    <i class="fa-solid fa-sparkles"></i> Let's Connect
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Icons Row (1. Mail, 2. LinkedIn, 3. GitHub, 4. Discord, 5. Telegram) -->
+        <div class="social-icons">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aloksk89@gmail.com" target="_blank" class="social-circle" title="Email">
+                <div class="icon-sphere">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <span>EMAIL</span>
+            </a>
+            <a href="https://linkedin.com/in/alok-sk" target="_blank" class="social-circle" title="LinkedIn">
+                <div class="icon-sphere">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <span>LINKEDIN</span>
+            </a>
+            <a href="https://github.com/Aloksk-89" target="_blank" class="social-circle" title="GitHub">
+                <div class="icon-sphere">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <span>GITHUB</span>
+            </a>
+            <a href="https://discord.com/users/aloksk_" target="_blank" class="social-circle" title="Discord">
+                <div class="icon-sphere">
+                    <i class="fa-brands fa-discord"></i>
+                 </div>
+                 <span>DISCORD</span>
+</a>
+            </a>
+            <a href="https://t.me/sk_alok" target="_blank" class="social-circle" title="Telegram">
+                <div class="icon-sphere">
+                    <i class="fa-brands fa-telegram"></i>
+                </div>
+                <span>TELEGRAM</span>
+            </a>
+        </div>
+
+        <!-- Accordion Dropdown Sections Container -->
+        <div class="dropdown-container">
+            
+            <!-- 1. About Me Dropdown -->
+            <div class="accordion-item">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <span><i class="fa-solid fa-user"></i> About Me</span>
+                    <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                </button>
+                <div class="accordion-content">
+                    <div class="content-text-group">
+                        <p>Passionate about building modern, responsive, and user-friendly web applications with clean and intuitive designs.
+Experienced in Python, web development, and AI-based projects, with a strong focus on creating practical solutions.
+Skilled in developing scalable applications while continuously learning new technologies and industry best practices.
+Dedicated to writing clean, efficient code and delivering meaningful digital experiences.
+Always eager to learn, collaborate, and contribute to innovative software development projects</p>
+                        
+                        <h4 class="sub-heading">Languages Known</h4>
+                        <p class="highlight-text">English, Malayalam, Hindi</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Education Dropdown -->
+            <div class="accordion-item">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <span><i class="fa-solid fa-graduation-cap"></i> Education</span>
+                    <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                </button>
+                <div class="accordion-content">
+                    <div class="content-text-group">
+                        <div class="timeline-item">
+                            <h4>BSc Computer Science</h4>
+                            <p class="inst-name">IHRD College of Applied Science, Vazhakkad, Malappuram</p>
+                            <span class="year-badge">2023 – 2026</span>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Higher Secondary (12th)</h4>
+                            <p class="inst-name">Farook Higher Secondary School, Kozhikode</p>
+                            <span class="year-badge">2021 – 2023</span>
+                        </div>
+                        <div class="timeline-item" style="border-bottom: none; padding-bottom: 0;">
+                            <h4>SSLC (10th)</h4>
+                            <p class="inst-name">Farook Higher Secondary School, Kozhikode</p>
+                            <span class="year-badge">2020 – 2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Internship & Projects Dropdown -->
+            <div class="accordion-item">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <span><i class="fa-solid fa-briefcase"></i> Internship & Projects</span>
+                    <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                </button>
+                <div class="accordion-content">
+                    <div class="content-text-group">
+                        <div class="timeline-item">
+                            <h4>Nexus Technologies, Calicut</h4>
+                            <p class="inst-name">Sep 2025 – Jan 2026</p>
+                            <ul class="custom-list">
+                                <li>Assisted in developing real-time applications within a collaborative development team.</li>
+                                <li>Contributed to the design and implementation of the EyeCare+ project.</li>
+                                <li>Participated in debugging, testing, and feature enhancement activities.</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item" style="border-bottom: none; padding-bottom: 0;">
+                            <h4>EyeCare+ | AI Healthcare Project</h4>
+                            <p class="inst-name">Sep 2025 – Jan 2026</p>
+                            <ul class="custom-list">
+                                <li>Developed an AI-based eye disease detection system using CNN for early diagnosis.</li>
+                                <li>Built Admin, Patient, and Doctor modules for user and patient data management.</li>
+                                <li>Trained ML models to detect Diabetic Retinopathy, Glaucoma, and Cataracts.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Tools Known Dropdown -->
+            <div class="accordion-item">
+                <button class="accordion-header" onclick="toggleAccordion(this)">
+                    <span><i class="fa-solid fa-tools"></i> Tools & Technologies</span>
+                    <i class="fa-solid fa-chevron-down arrow-icon"></i>
+                </button>
+                <div class="accordion-content">
+                    <div class="content-text-group">
+                        <div class="skill-category">
+                            <h4>Programming Languages</h4>
+                            <p class="highlight-text">Python, C, JavaScript</p>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Web & Mobile Technologies</h4>
+                            <p class="highlight-text">HTML, CSS, Flutter</p>
+                        </div>
+                        <div class="skill-category" style="border-bottom: none; padding-bottom: 0;">
+                            <h4>Databases & Developer Tools</h4>
+                            <p class="highlight-text">SQL, MySQL, Git, GitHub, Android Studio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Copyright Footer Section -->
+        <footer class="footer-copyright">
+            <p>&copy; 2026 Alok S K. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        // Interactive Accordion Dropdown Functionality
+        function toggleAccordion(button) {
+            const item = button.parentElement;
+            const content = item.querySelector('.accordion-content');
+            
+            const isActive = item.classList.contains('active');
+
+            if (!isActive) {
+                item.classList.add('active');
+                content.style.maxHeight = content.scrollHeight + "px";
+            } else {
+                item.classList.remove('active');
+                content.style.maxHeight = null;
+            }
+        }
+    </script>
+</body>
+</html>
